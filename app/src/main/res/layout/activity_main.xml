@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Enduser.MainActivity"
+    android:background="@drawable/bookphoto3"
+    >
+
+    <ImageView
+        android:id="@+id/mylogo"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/mylogo"
+        />
+
+    <TextView
+        android:id="@+id/appslogan"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="261dp"
+        android:layout_marginEnd="167dp"
+        android:text="Take a Look, Read a Book!!!"
+        android:textColor="#151414"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+<Button
+    android:id="@+id/main_login_btn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:layout_above="@+id/becomeseller"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:background="@drawable/buttons1"
+    android:padding="20dp"
+    android:textAllCaps="false"
+    android:textSize="18sp"
+    android:text="Already have account?Login!!"
+    android:textColor="#FAF2F2"
+    />
+
+    <Button
+        android:id="@+id/main_signup_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/main_login_btn"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/inputs_design"
+        android:padding="20dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="Signup Now!!"
+        android:textStyle="bold"
+        android:textColor="#0B0A0B"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wants to Become A Seller"
+        android:background="@drawable/buttons1"
+        android:textColor="#F7F3FA"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="19dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:id="@+id/becomeseller"
+
+        />
+</RelativeLayout>
